@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 const connection = require('../database/database')
 
 const PacienteModel = connection.define(
-    'tbl_paciente',
+    'tbl_pacientes',
     {
         cod_paciente:{
             type: Sequelize.INTEGER(10),
